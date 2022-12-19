@@ -1,1 +1,3 @@
-alert('hello world')
+function myFunction() {
+    alert("Hello World");
+}
