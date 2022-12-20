@@ -3,3 +3,9 @@ button {
     font-size: 50px;
 }
 
+
+#demo {
+    font-size: 30px;
+    color: red;
+    font-weight: 500;
+}
