@@ -10,13 +10,16 @@ function addlist()
   list.appendChild(li);
 
   
+
+  
 }
 
 function calcsum(){
+  
 
     list.dataset.total = parseInt(list.dataset.total) + parseInt(num);
             
 
-    result.innerHTML = list.dataset.total;
+    result.textContent = list.dataset.total;
 
 }
