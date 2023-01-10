@@ -1,8 +1,22 @@
 body {
     margin: 0;
+    border: 2px solid ;
+    width: 50%;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+button {
+    margin-top: 20px;
+     padding: 10px;
+     font-size: 20px;
+}
+
+span {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
 }
