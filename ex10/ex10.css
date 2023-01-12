@@ -1,0 +1,8 @@
+.answer {
+    padding: 20px;
+    font-size: 25px;
+    width: 15%;
+    border: 20px thin black;
+    color: red;
+    font-weight: bold;
+}
