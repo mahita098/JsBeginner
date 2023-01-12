@@ -1,6 +1,16 @@
 let list = document.getElementById("list");
 let result = document.getElementById("result");
 
+let no0 = document.getElementById("input0").value;
+
+
+function num0(){
+    let no0 = 0;
+    let myLi = document.createElement("li");
+    myLi.innerHTML = no0;
+    list.appendChild(myLi);
+}
+
 let no1 = document.getElementById("input1").value;
 
 function num1(){
@@ -90,15 +100,7 @@ function num9(){
     list.appendChild(myLi);
 }
 
-let no10 = document.getElementById("input10").value;
 
-
-function num10(){
-    let no10 = 10;
-    let myLi = document.createElement("li");
-    myLi.innerHTML = no10;
-    list.appendChild(myLi);
-}
 
 
 

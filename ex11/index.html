@@ -4,29 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercise 10</title>
-    <link rel="stylesheet" href="ex10.css" />
+    <title>Exercise 11</title>
+    <link rel="stylesheet" href="ex11.css" />
   </head>
   <body>
-    <button style="font-size: 25px" id="input0" onclick="num0()">0</button>
-    <button style="font-size: 25px" id="input1" onclick="num1()">1</button>
-    <button style="font-size: 25px" id="input2" onclick="num2()">2</button>
-    <button style="font-size: 25px" id="input3" onclick="num3()">3</button>
-    <button style="font-size: 25px" id="input4" onclick="num4()">4</button>
-    <button style="font-size: 25px" id="input5" onclick="num5()">5</button>
-    <button style="font-size: 25px" id="input6" onclick="num6()">6</button>
-    <button style="font-size: 25px" id="input7" onclick="num7()">7</button>
-    <button style="font-size: 25px" id="input8" onclick="num8()">8</button>
-    <button style="font-size: 25px" id="input9" onclick="num9()">9</button>
+    <div class="container">
+      <div class="box1">
+        <button style="font-size: 25px" id="input1" onclick="num1()">1</button>
+        <button style="font-size: 25px" id="input2" onclick="num2()">2</button>
+        <button style="font-size: 25px" id="input3" onclick="num3()">3</button>
+        <button style="font-size: 25px" id="inputx" onclick="numx()"></button>
 
-    <ul id="list" data-total="0"></ul>
+        <button style="font-size: 25px" id="input4" onclick="num4()">4</button>
+        <button style="font-size: 25px" id="input5" onclick="num5()">5</button>
+        <button style="font-size: 25px" id="input6" onclick="num6()">6</button>
+        <button style="font-size: 25px" id="inputx" onclick="numx()"></button>
+        <button style="font-size: 25px" id="input7" onclick="num7()">7</button>
+        <button style="font-size: 25px" id="input8" onclick="num8()">8</button>
+        <button style="font-size: 25px" id="input9" onclick="num9()">9</button>
+        <button style="font-size: 25px" id="input0" onclick="num0()">0</button>
+      </div>
 
-    <div class="answer" id="result"></div>
+      <div class="box2">
+        <button style="font-size: 25px" onclick="calcsum()">+</button>
+        <button style="font-size: 25px" onclick="calcmin()">-</button>
+        <button style="font-size: 25px" onclick="calcmul()">*</button>
+        <button style="font-size: 25px" onclick="calcdiv()">/</button>
+      </div>
 
-    <button style="font-size: 25px" onclick="calcsum()">Sum</button>
-    <button style="font-size: 25px" onclick="calcmin()">Minus</button>
-    <button style="font-size: 25px" onclick="calcmul()">Multiply</button>
-    <button style="font-size: 25px" onclick="calcdiv()">Division</button>
+      <div class="ansbox">
+        <ul id="list" data-total="0"></ul>
+
+        <div class="answer" id="result"></div>
+      </div>
+    </div>
   </body>
-  <script src="ex10.js"></script>
+  <script src="ex11.js"></script>
 </html>
