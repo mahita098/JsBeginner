@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex13 Calculator App</title>
+    <link rel="stylesheet" href="ex13.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator1">
+        <div class="heading">
+          <p class="heading1">Calculator</p>
+          <p class="heading2">Mahita</p>
+        </div>
+        <div class="resultbox">
+          <ul id="list" data-total="0"></ul>
+
+          <div class="answer" id="result"></div>
+        </div>
+        <div class="numberbox">
+          <div class="box1">
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="clear_input()"
+            >
+              C
+            </button>
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="calcperc()"
+            >
+              %
+            </button>
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="clear_input2()"
+            >
+              X
+            </button>
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="calcdiv()"
+            >
+              /
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input7"
+              onclick="num7()"
+            >
+              7
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input8"
+              onclick="num8()"
+            >
+              8
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input9"
+              onclick="num9()"
+            >
+              9
+            </button>
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="calcmul()"
+            >
+              *
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input4"
+              onclick="num4()"
+            >
+              4
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input5"
+              onclick="num5()"
+            >
+              5
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input6"
+              onclick="num6()"
+            >
+              6
+            </button>
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="calcmin()"
+            >
+              -
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input1"
+              onclick="num1()"
+            >
+              1
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input2"
+              onclick="num2()"
+            >
+              2
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input3"
+              onclick="num3()"
+            >
+              3
+            </button>
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="calcsum()"
+            >
+              +
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input00"
+              onclick="num00()"
+            >
+              00
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="input0"
+              onclick="num0()"
+            >
+              0
+            </button>
+            <button
+              class="btnwhite"
+              style="font-size: 25px"
+              id="inputcomma"
+              onclick="comma()"
+            >
+              ,
+            </button>
+            <button
+              class="btnblack"
+              style="font-size: 25px"
+              onclick="addlist()"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="ex13.js"></script>
+</html>
