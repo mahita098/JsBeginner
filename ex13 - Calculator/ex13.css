@@ -90,13 +90,31 @@ button {
     margin: 1px 22px;
     padding: 70px 70px;
     box-shadow: inset 4px 5px 10px rgb(230,226,227);
-    
+    width: 275px;
+    height: 200px;
     border-radius: 10px;
     border: 1px solid #FFF;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
 
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
+.answer {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-weight: bold;
+}
 
 
 
