@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: rgb(255, 255, 255);
 }
 
 .container {
@@ -14,11 +14,12 @@ body {
 }
 
 .calculator1 {
-    width: 30%;
+    width: 325px;
     height: 70%;
-    background-color: rgb(246, 244, 244);
+    background-color: #f2f3f7;
+    border: 1px solid #fff;
     border-radius: 10px;
-    box-shadow:0px 5px 10px 0px rgb(192, 191, 191);
+    box-shadow: 10px 10px 25px rgb(224, 223, 223);
 }
 
 .heading {
@@ -35,14 +36,17 @@ body {
     border: 1px solid rgb(255, 255, 255);
     padding: 5px 10px;
     color: rgb(77, 72, 72);
-    box-shadow:0px 5px 10px 0px white;
+    box-shadow:-5px -5px 15px white,
+    5px 5px 10px rgba(70,70,70,0.12);
 }
 
 .heading2 {
     border-radius: 10px;
-    border: 1px solid rgb(225, 219, 219);
+    box-shadow:-5px -5px 15px white,
+    inset 3px 5px 10px rgba(70,70,70,0.12);
     padding: 5px 10px;
-    box-shadow: inset 3px 3px 5px #e6e1e1;
+   
+    
 }
 
 
@@ -52,7 +56,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
     padding: 20px;
-    gap: 9px;
+    gap: 12px;
 
 }
 
@@ -60,7 +64,8 @@ body {
 button {
     padding: 15px;
     border-radius: 10px;
-    background-color: white;
+    background-color: #fff;
+    
     border: none;
     
     
@@ -74,17 +79,20 @@ button {
 
 .btnwhite {
     color: rgb(33, 31, 31);
-    background-color: white;
-    /* box-shadow:  0 1px 10px rgba(0, 0, 0, 0.10); */
-    box-shadow:0px 5px 10px 0px white;
+    background-color: rgb(242,243,247);
+    
+    box-shadow: -5px -5px 15px white,
+    5px 5px 10px rgba(70,70,70,0.12);
+
 }
 
 .resultbox {
     margin: 1px 22px;
-    padding: 70px;
-    box-shadow: inset 3px 3px 5px #e6e1e1;
+    padding: 70px 70px;
+    box-shadow: inset 4px 5px 10px rgb(230,226,227);
+    
     border-radius: 10px;
-    border: 1px solid #e7e2e2;
+    border: 1px solid #FFF;
 
 }
 
