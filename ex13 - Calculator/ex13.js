@@ -154,16 +154,3 @@ function calcmin(){
     result.innerHTML = perc;
 
   }
-
-  function clear_input2() {
-
-    let num1 = document.querySelector("#list li:first-child").innerHTML
-    let num2 = document.querySelector("#list li:nth-child(2)").innerHTML
-
-    let numtwo = "";
-    
-    let finalResult2 = document.getElementById("result");
-    let finalListNumber2 = document.getElementById("list");
-    finalResult2.innerHTML =  "";
-    finalListNumber.innerHTML = "";
-}
