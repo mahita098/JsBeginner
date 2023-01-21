@@ -1,12 +1,20 @@
+var x = 0;
+var array = Array();
 
-let list = document.getElementById("list");
-let text = document.getElementById("input").value;
+function add_element_to_array() {
+    array[x] = document.getElementById("input").value;
 
-function addList()  {
-    let text = document.getElementById("input").value;
-    let li = document.createElement("li");
-    li.innerHTML = text;
-    list.appendChild(li);
+    let num = document.getElementById("input").value;
+    let list = document.getElementById("list");
+    let myLi = document.createElement("li");
+    myLi.innerHTML = num;
+    list.appendChild(myLi);
 
+    var e = "<hr/>";
+    for(var y=0; y<array.length; y++) {
+        e += "Element " + y + " = " + array[y] + "<br/>";
+   }
+   document.getElementById("Result").innerHTML = e;
 }
+
 
